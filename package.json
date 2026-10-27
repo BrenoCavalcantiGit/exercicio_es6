@@ -1,0 +1,16 @@
+{
+  "name": "exercicio-es6",
+  "version": "1.0.0",
+  "description": "Exercício de ES6+: filtrar alunos com nota maior ou igual a 6",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "babel src -d dist"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.0",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0"
+  }
+}
